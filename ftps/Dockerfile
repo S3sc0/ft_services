@@ -11,5 +11,6 @@ RUN touch /run/openrc/softlevel
 RUN echo -e "1234\n1234" | passwd
 RUN mkdir /home/Sesco
 COPY vsftpd.conf /etc/vsftpd
+COPY vsftpd.pem /etc/ssl/private
 
 CMD sh start.sh
