@@ -5,7 +5,7 @@ RUN apk add openrc influxdb
 
 # install telegraf
 RUN wget http://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/telegraf-1.17.0-r0.apk
-RUN apk add --allow-unstrusted telegraf-1.17.0-r0.apk
+RUN apk add --allow-untrusted telegraf-1.17.0-r0.apk
 COPY telegraf.conf /etc
 
 RUN rc-status
