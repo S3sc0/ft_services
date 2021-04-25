@@ -1,4 +1,4 @@
-rc-service influxdb start
+rc-service influxdb restart
 
 # Create a user
 influx -execute "CREATE USER admin WITH PASSWORD 'admin' WITH ALL PRIVILEGES"
