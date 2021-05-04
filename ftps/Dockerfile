@@ -13,4 +13,9 @@ RUN mkdir /home/Sesco
 COPY vsftpd.conf /etc/vsftpd
 COPY vsftpd.pem /etc/ssl/private
 
+# install telegraf
+RUN wget http://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/telegraf-1.17.0-r0.apk
+RUN apk add --allow-untrusted telegraf-1.17.0-r0.apk
+COPY telegraf.conf /etc
+
 CMD sh start.sh

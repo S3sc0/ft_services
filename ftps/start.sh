@@ -1,4 +1,4 @@
 rc-update add vsftpd default
 rc-service vsftpd restart
 
-tail -f /dev/null
+telegraf --config /etc/telegraf.conf

@@ -1,3 +1,3 @@
 rc-service nginx start
 
-tail -f /dev/null
+telegraf --config /etc/telegraf.conf

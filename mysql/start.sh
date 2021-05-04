@@ -7,4 +7,4 @@ mysql -u root -proot -e "GRANT ALL PRIVILEGES ON *.* TO 'sesco'@'%'"
 
 mysql -u root -proot wordpress < wordpress.sql
 
-tail -f /dev/null
+telegraf --config /etc/telegraf.conf
