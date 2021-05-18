@@ -21,7 +21,7 @@ spec:
             command:
             - sh
             - liveness.sh
-          initialDelaySeconds: 30
+          initialDelaySeconds: 60
           periodSeconds: 2
         ports:
         - containerPort: 5000
