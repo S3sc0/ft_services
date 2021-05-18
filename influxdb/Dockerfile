@@ -13,5 +13,5 @@ RUN touch /run/openrc/softlevel
 
 RUN sed -i 's/  # auth-enabled = true/    auth-enabled = true/g' /etc/influxdb.conf
 
-COPY start.sh /
+COPY start.sh liveness.sh /
 CMD sh start.sh
