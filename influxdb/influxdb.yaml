@@ -39,7 +39,7 @@ spec:
             - sh
             - liveness.sh
           initialDelaySeconds: 30
-          periodSeconds: 30
+          periodSeconds: 2
         ports:
         - containerPort: 8086
         volumeMounts:

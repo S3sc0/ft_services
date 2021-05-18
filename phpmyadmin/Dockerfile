@@ -10,7 +10,7 @@ RUN mv phpmyadmin/* /var/www/html
 
 COPY default.conf /etc/nginx/conf.d
 COPY config.inc.php /var/www/html
-COPY start.sh /
+COPY start.sh liveness.sh /
 
 RUN rc-status
 RUN touch /run/openrc/softlevel

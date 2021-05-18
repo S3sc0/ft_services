@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-COPY start.sh wordpress.sql /
+COPY start.sh wordpress.sql liveness.sh /
 
 RUN apk update
 RUN apk add openrc mysql mysql-client

@@ -8,7 +8,7 @@ RUN mv wordpress /var/www
 
 COPY default.conf /etc/nginx/conf.d
 COPY wp-config.php /var/www/wordpress
-COPY start.sh /
+COPY start.sh liveness.sh /
 
 RUN rc-status
 RUN touch /run/openrc/softlevel

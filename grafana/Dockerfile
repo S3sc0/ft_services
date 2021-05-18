@@ -8,7 +8,7 @@ RUN touch /run/openrc/softlevel
 RUN wget http://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/grafana-7.3.6-r0.apk
 RUN apk add --allow-untrusted grafana-7.3.6-r0.apk 
 
-COPY start.sh /
+COPY start.sh liveness.sh /
 COPY grafana /grafana
 
 # install telegraf

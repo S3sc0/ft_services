@@ -1,6 +1,6 @@
 #!bin/bash
 
-ps | grep influxdb | grep -v grep
+ps | grep mysqld | grep -v grep
 ret=$?
 if [ $ret = 0 ];
 then
