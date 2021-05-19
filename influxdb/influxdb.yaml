@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: influxdb-pv-claim
+  name: influxdb01-pv-claim
 spec:
   accessModes:
     - ReadWriteOnce
@@ -28,7 +28,7 @@ spec:
       volumes:
         - name: influxdb-pv-storage
           persistentVolumeClaim:
-            claimName: influxdb-pv-claim
+            claimName: influxdb01-pv-claim
       containers:
       - name: influxdb
         image: influxdb
