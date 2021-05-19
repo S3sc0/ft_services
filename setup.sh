@@ -7,7 +7,7 @@ eval $(minikube -p minikube docker-env)
 docker build -t engine-x srcs/nginx
 docker build -t grafana srcs/grafana
 docker build -t wordpress srcs/wordpress
-docker build -t phpmyadmin psrcs/hpmyadmin
+docker build -t phpmyadmin srcs/phpmyadmin
 docker build -t mysql srcs/mysql
 docker build -t influxdb srcs/influxdb
 docker build -t ftps srcs/ftps
