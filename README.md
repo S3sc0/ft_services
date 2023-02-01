@@ -49,3 +49,22 @@ Next run the following script and it will take care of everything.
 ```console
 > sh ./setup.sh
 ```
+
+## Resources
+
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Metallb Configuration](https://metallb.universe.tf/configuration/)
+- [Kubernetes Services Networking](https://kubernetes.io/docs/concepts/services-networking/service/)
+- [Kubernetes Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Kubernetes tutorial — Create deployments using YAML file](https://karthi-net.medium.com/kubernetes-tutorial-create-deployments-using-yaml-file-90ea901a2f74)
+- [MetalLB (Network LoadBalancer ) & Minikube](https://medium.com/@shoaib_masood/metallb-network-loadbalancer-minikube-335d846dfdbe)
+- [VSFTPD.CONF](http://vsftpd.beasts.org/vsftpd_conf.html)
+- [vsftpd Configuration Options](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-ftp-vsftpd-conf.html)
+- [Grafana - Install and Configure Grafana, InfluxDB, telegraf - 1](https://www.youtube.com/watch?v=pE7zU4MOqC8)
+- [Grafana - Install and Configure Grafana Dashboard - 2](https://www.youtube.com/watch?v=7kfgTtQzSG0)
+- [Grafana Package](https://pkgs.org/search/?q=grafana)
+- [Map Environment Variables Using Secrets](https://octoperf.com/blog/2019/09/19/kraken-kubernetes-influxdb-grafana-telegraf/#map-a-configuration-file-using-configmap)
+- [Set up an Nginx Reverse Proxy for Grafana](https://medium.com/grafana-tutorials/reverse-proxy-grafana-with-nginx-c5df753acfde)
+- [Configure a Pod to Use a PersistentVolume for Storage](https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/)
+- [Kubernetes liveness probe – Command Exec](https://www.grandmetric.com/knowledge-base/design_and_configure/kubernetes-liveness-probe-command-exec/)
