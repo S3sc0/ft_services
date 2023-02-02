@@ -33,7 +33,7 @@ The whole project was built locally so this is what has been used.
 
 1. Containers orchestration.
 2. Write a fully customized Dockerfiles.
-3. Write YAML files of kind deployment and service to configure k8s cluster.
+3. Write YAML files of kind deployment and service manifests to configure k8s cluster.
 4. Write Bash scripts to automate repetitive tasks.
 5. Configure & run each service mentioned above.
 
@@ -49,6 +49,8 @@ Next run the following script and it will take care of everything.
 ```console
 > sh ./setup.sh
 ```
+
+> This way has been tested both in macOS and Linux system.
 
 ## Resources
 
