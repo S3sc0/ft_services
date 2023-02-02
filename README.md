@@ -47,10 +47,10 @@ First of all you need to have `minikube` and `metallb` installed on your machine
 Next run the following script and it will take care of everything.
 
 ```console
-> sh ./setup.sh
+sh ./setup.sh
 ```
 
-> This way has been tested both in macOS and Linux system.
+> This way has been tested both in macOS and Linux systems.
 
 ## Resources
 
