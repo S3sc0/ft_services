@@ -29,13 +29,13 @@ The whole project was built locally so this is what has been used.
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Grafana_logo.png" width="30px" height="30px">
 </p>
 
-## What I've Learned
+## What I Learned
 
-1. Containers orchestration.
-2. Write a fully customized Dockerfiles.
-3. Write YAML files of kind deployment and service manifests to configure k8s cluster.
-4. Write Bash scripts to automate repetitive tasks.
-5. Configure & run each service mentioned above.
+- Learned containers orchestration.
+- Learned to write a fully customized Dockerfiles.
+- Learned to write YAML files of kind deployment and service manifests to configure k8s cluster.
+- Learned to write Bash scripts to automate repetitive tasks.
+- Learned to configure & run each service mentioned above.
 
 ## How To Use
 
